@@ -302,6 +302,17 @@ a {
   border-radius: 5px;
 }
 
+.new-register-btn {
+    display: inline-block;
+    background: #ff0000;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
 .BoxContent p {
   padding: 10px 0px;
   border-top: thin solid #ffffff;
@@ -420,4 +431,7 @@ $headers1[]='referer: https://user-web.trobo.co/';
 
 <br><div id="formFooter">
         <a class="underlineHover" href="https://telegram.me/tricksmaster111">Jᴏɪɴ Oᴜʀ Tᴇʟᴇɢʀᴀᴍ Cʜᴀɴɴᴇʟ</a>
+        <a href="/index.php" class="new-register-btn">
+    NEW REGISTER
+</a>
       </div><script type="text/javascript"> var arrgetbtn=[]; arrgetbtn.push({"title":"Telegram","icon":"fwidgethelp-telegram_v2","link":"https://telegram.me/tricksmaster111","target":"_blank","color":"#FFFFFF","background":"#27A5E7"}); arrgetbtn.push({"title":"","icon":"fwidgethelp-telegram_v2","link":"https://telegram.me/tricksmaster111","target":"_blank","color":"#FFFFFF","background":"#cc0000"}); arrgetbtn.push({"title":"","icon":"fwidgethelp-envelope","link":"","target":"_blank","color":"#FFFFFF","background":"#ff9900"}); var WidGetButtonOptions = { id:"99d94b6d33562f7f07911780e8c72119", iconopen:"fwidgethelp-telegram_v2", maintitle:"Telegram", mainbackground:"#ff0000", maincolor:"hsv(0, 0%, 100%)", pulse:"widgethelp_pulse", fasize:"1.75", direction:"top", position:"rightbottom", arrbtn: arrgetbtn }; (function() { var script = document.createElement("script"); script.type = "text/javascript"; script.async = true; script.src = "https://getbtn.com/widget/index.php?id="+-WidGetButtonOptions.id; document.getElementsByTagName("head")[0].appendChild(script); })();</script>              
